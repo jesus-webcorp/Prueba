@@ -1,0 +1,20 @@
+.barra{
+    border: 1px solid black;
+    border-radius: 5px;
+    animation: progreso 5s linear 1;
+}
+
+
+
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    30%{
+        width: 50%;
+    }
+    70% {
+        width: 100%;
+    }
+}
+
